@@ -27,12 +27,12 @@ document.getElementById("div2").innerHTML=namesarray
 }
 function searching()
 {
-    var s= document.getElementById("s1").value
+    var s= document.getElementById("i1").value
     var found=0;
     var j;
-    for(j=o; j<names_of_people.length; j++)
+    for(j=0; j<namesarray.length; j++)
     {
-        if(s==names_of_people[j]){
+        if(s==namesarray[j]){
             found=found+1;
         }
     }
